@@ -1,0 +1,237 @@
+===========================================================
+  NAYA PRODUCT KAISE ADD KAREIN  -  H&J / Pradip Machine Tools
+===========================================================
+
+Koi software install nahi karna. Sirf 2 kaam:
+  (1) photo upload kijiye
+  (2) products.json file mein 10 line likh dijiye
+
+-----------------------------------------------------------
+STEP 1 : PHOTO UPLOAD KIJIYE
+-----------------------------------------------------------
+
+Hosting ke File Manager mein jaiye (cPanel / Hostinger / jahan
+bhi site hai), aur apni photo is folder mein daal dijiye:
+
+        products/
+
+Photo ka naam simple rakhiye - chhote akshar, space ke bina:
+
+        GALAT  :  Water Filter Mould (1).jpg
+        SAHI   :  water-filter-mould.jpg
+
+-----------------------------------------------------------
+STEP 2 : products.json FILE EDIT KIJIYE
+-----------------------------------------------------------
+
+Usi jagah par products.json file milegi. Uspar right-click ->
+Edit kijiye.
+
+Andar "products": [ ... ] likha hoga. Uske andar har product ek
+{ } block hai. Kisi bhi block ke baad ye paste kar dijiye
+(comma , lagana mat bhooliye):
+
+    {
+      "id": "water-filter-mould",
+      "name": "Water Filter Housing Mould",
+      "category": "Pipe Fittings Mould",
+      "code": "PF-725",
+      "description": "Yahan do line ka description likhiye.",
+      "specs": ["2 cavity", "Hot runner", "PP"],
+      "image": "products/water-filter-mould.jpg",
+      "shape": "pipe",
+      "color": "#d6d4ca"
+    },
+
+Save kijiye. Website turant update ho jayegi - page refresh
+kar ke dekh lijiye.
+
+-----------------------------------------------------------
+HAR LINE KA MATLAB
+-----------------------------------------------------------
+
+id           har product ka alag naam (chhote akshar, dash ke saath)
+name         jo website par dikhega
+category     neeche di gayi list mein se EK (spelling bilkul same)
+code         aapka code, har product ka alag (jaise PF-725)
+description  do line ki jaankari
+specs        chhote tags, 2-3 rakhiye. Nahi chahiye to  []  likh dijiye
+image        photo ka rasta. Photo nahi hai to  ""  likh dijiye
+             (tab ek drawing apne aap dikh jayegi)
+shape        drawing ka type - neeche list hai
+color        drawing ka rang
+
+-----------------------------------------------------------
+CATEGORY - INME SE EK HI LIKHNA HAI
+-----------------------------------------------------------
+
+    Food Container & Cutlery
+    Automobile Mould
+    Electronic Component Mould
+    Metal Parts Mould
+    Insert Mould
+    Home Appliance Mould
+    Pipe Fittings Mould
+    Toys Mould
+
+Nayi category banani ho to upar "categories": [ ] wali list
+mein bhi uska naam jod dijiye.
+
+-----------------------------------------------------------
+SHAPE - INME SE EK
+-----------------------------------------------------------
+
+    pipe        pipe fitting
+    box         dabba / electronic housing
+    crate       tray / crate
+    pail        dabba / container
+    bezel       gaadi ka panel
+    connector   insert / connector
+    medical     technical part
+    toy         khilona
+
+-----------------------------------------------------------
+DHYAN RAKHNE WALI BAATEIN
+-----------------------------------------------------------
+
+1. Har { } block ke baad comma  ,  lagaiye.
+   SABSE AAKHRI block ke baad comma MAT lagaiye.
+
+2. Sab kuch double quotes  " "  ke andar likhiye.
+
+3. Kuch galat ho gaya to products list khaali dikhegi.
+   Ghabraiye mat - file check kijiye ya purani file wapas
+   daal dijiye. Isliye edit karne se pehle products.json ki
+   ek copy bana lijiye.
+
+4. Check karne ke liye: jsonlint.com par file ka text paste
+   kar ke "Validate" dabaiye. Galti ho to woh bata dega.
+
+-----------------------------------------------------------
+PRODUCT HATANA HO TO
+-----------------------------------------------------------
+
+Us product ka pura { } block hata dijiye, uske comma ke saath.
+Photo bhi products/ folder se hata sakte hain.
+
+===========================================================
+
+
+===========================================================
+  VIDEO LIBRARY  (Google Drive se)
+===========================================================
+
+Videos website par upload nahi karni. Aap sirf Google Drive ke
+ek folder mein daalte jaiye - website apne aap dikhati rahegi.
+
+-----------------------------------------------------------
+EK BAAR KA SETUP
+-----------------------------------------------------------
+
+1. Google Drive mein ek folder banaiye, jaise "Mould Videos"
+
+2. Us folder par right-click -> Share -> Sharing karein
+
+3. "General access" ko "Restricted" se badal kar
+   "ANYONE WITH THE LINK" kar dijiye, aur role "Viewer" rakhiye
+
+   >>> Ye step sabse zaroori hai. Agar ye nahi kiya to buyer ko
+   >>> videos nahi dikhengi - unhe "access denied" aayega.
+
+4. "Copy link" dabaiye
+
+5. Website ki videos.json file kholiye aur link paste kar dijiye:
+
+       {
+         "driveFolderUrl": "https://drive.google.com/drive/folders/XXXXXXXX",
+         "videos": []
+       }
+
+   Save kijiye. Bas - ho gaya.
+
+-----------------------------------------------------------
+AB HAR BAAR
+-----------------------------------------------------------
+
+Nayi video bas Drive ke folder mein daal dijiye. Website par
+apne aap aa jayegi. Na koi file edit karni, na kuch upload karna.
+
+Video hatani ho to Drive se hata dijiye.
+
+-----------------------------------------------------------
+DHYAN RAKHIYE
+-----------------------------------------------------------
+
+* Video ka naam theek rakhiye - buyer ko wahi naam dikhega.
+  Jaise: "Egg Tray Mould Trial.mp4"
+
+* MP4 format rakhiye, har jagah chalta hai
+
+* Agar sharing "Anyone with the link" nahi hai to kuch nahi
+  dikhega. Shak ho to link ko private window (Ctrl+Shift+N)
+  mein kholkar dekh lijiye - agar wahan khul gaya, to sab theek.
+
+===========================================================
+
+
+===========================================================
+  "PRODUCTS" PAGE  -  banaye hue product ki photo
+===========================================================
+
+Ye Mould Crafts se alag hai:
+
+   Mould Crafts  ->  mould ki photo (jo saancha banta hai)
+   Products      ->  us mould se bane product ki photo
+
+STEP 1 : Photo ko  our-products/  folder mein daal dijiye
+         Naam simple: tower-fan-back-cover.jpg
+
+STEP 2 : our-products.json kholiye, "products": [ ] ke andar
+         ye paste kar dijiye:
+
+    {
+      "id": "tower-fan-back-cover",
+      "name": "Tower Fan Back Cover",
+      "material": "ABS",
+      "description": "Do line mein product ki baat.",
+      "image": "our-products/tower-fan-back-cover.jpg"
+    }
+
+material aur description chahiye to daaliye, nahi to hata dijiye.
+Har { } block ke baad comma , - aakhri ke baad NAHI.
+
+===========================================================
+
+
+===========================================================
+  "QUALITY" PAGE  -  product kaise banta hai (process photo)
+===========================================================
+
+Quality page par neeche "How a product is made" wala hissa
+hai - 7 step. Har step mein photo lag sakti hai.
+
+Abhi photo nahi hai, isliye sirf bada number (01, 02...)
+dikh raha hai. Photo daalte hi number ki jagah photo aa
+jayegi.
+
+STEP 1 : Photo ko  process/  folder mein daal dijiye
+         (folder nahi hai to bana lijiye)
+         Naam simple: 04-vmc-machining.jpg
+
+STEP 2 : process.json kholiye. Andar 7 step hain. Jis step
+         mein photo daalni hai, uski "image": "" wali line
+         mein raasta likh dijiye:
+
+         PEHLE :   "image": ""
+         BAAD  :   "image": "process/04-vmc-machining.jpg"
+
+Bas itna hi. Save kijiye aur page refresh kar lijiye.
+
+- Step ka naam ya likha hua badalna ho to "name" aur
+  "description" badal dijiye.
+- Naya step jodna ho to kisi { } block ko copy kar ke
+  neeche paste kar dijiye, "id" alag rakhiye.
+- Step hatana ho to uska poora { } block mita dijiye.
+- Sabse upar "title" aur "intro" bhi badal sakte hain.
+
+===========================================================

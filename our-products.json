@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "tower-fan",
+      "name": "Tower Fan",
+      "material": "Injection moulded plastic",
+      "description": "Full tower fan body with front grille, control panel and base, moulded in seven colour options with a common white body. Mould developed by us and currently running in production.",
+      "image": "our-products/tower-fan.jpg"
+    },
+    {
+      "id": "ppr-pipe-fittings",
+      "name": "PPR Pipe Fittings",
+      "material": "PPR · Green",
+      "description": "Complete range of PPR plumbing fittings - sockets, couplers, elbows, reducers and ball valve, moulded to size. Moulds developed by us and currently running in production.",
+      "image": "our-products/ppr-pipe-fittings.jpg"
+    },
+    {
+      "id": "swr-pipe-fittings",
+      "name": "SWR Pipe Fittings",
+      "material": "PVC · Grey",
+      "description": "SWR drainage fitting range - single and double Y tees, bends, couplers, door bends, end caps and vent cowl. Moulds developed by us and currently running in production.",
+      "image": "our-products/swr-pipe-fittings.jpg"
+    },
+    {
+      "id": "pedal-dustbin-12l",
+      "name": "12 Litre Pedal Dustbin",
+      "material": "Injection moulded plastic",
+      "description": "12 litre pedal operated dustbin with hinged lid, carry handle and foot pedal mechanism. Mould developed by us and currently running in production.",
+      "image": "our-products/pedal-dustbin-12l.jpg"
+    },
+    {
+      "id": "rider-toy-car",
+      "name": "Rider Toy Car",
+      "material": "Blow moulded plastic",
+      "description": "Children's ride-on car - body, seat back, steering and wheels. Mould developed and manufactured by us.",
+      "image": "our-products/rider-toy-car.jpg"
+    },
+    {
+      "id": "activa-3g-front-panel",
+      "name": "Activa 3G Front Inner Panel",
+      "material": "Injection moulded plastic · Textured black",
+      "description": "Front inner panel for the Honda Activa 3G, with moulded grain finish and fitted insert points. Mould developed and manufactured by us.",
+      "image": "our-products/activa-3g-front-panel.jpg"
+    },
+    {
+      "id": "cpr-dummy",
+      "name": "CPR Training Manikin",
+      "material": "Injection moulded plastic",
+      "description": "Head, face and chest assembly for a CPR training manikin, with airway channel and compression indicators. Moulds developed and manufactured by us.",
+      "image": "our-products/cpr-dummy.jpg"
+    },
+    {
+      "id": "plastic-stool",
+      "name": "Moulded Plastic Stool",
+      "material": "Injection moulded plastic",
+      "description": "Single piece stool with a vented seat and radiused legs, developed in transparent, wood finish and marble finish variants.",
+      "image": "our-products/plastic-stool.jpg"
+    }
+  ]
+}

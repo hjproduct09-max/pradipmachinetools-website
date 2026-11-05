@@ -1,0 +1,59 @@
+{
+  "driveFolderUrl": "https://drive.google.com/drive/folders/1jsTmVPQZMof4x7o7l7eUfp2cTdo307ia?usp=sharing",
+  "videos": [
+    {
+      "id": "tower-fan-impeller-mould",
+      "title": "Tower Fan Impeller Mould",
+      "description": "ABS impeller production — mould for the tower fan impeller, running in the factory.",
+      "file": "videos/tower-fan-impeller-mould.mp4"
+    },
+    {
+      "id": "air-cooler-family-mould",
+      "title": "Air Cooler Parts Family Mould",
+      "description": "Family mould producing several air cooler parts in one shot.",
+      "file": "videos/air-cooler-family-mould.mp4"
+    },
+    {
+      "id": "fan-switch-mould",
+      "title": "Fan Switch Mould — 12 Cavity ABS",
+      "description": "Twelve-cavity ABS mould for fan switch bodies, balanced for even filling.",
+      "file": "videos/fan-switch-mould.mp4"
+    },
+    {
+      "id": "abs-food-plate-mould",
+      "title": "ABS Food Plate Mould",
+      "description": "Mould for ABS food plates, with a polished cavity for a clean surface.",
+      "file": "videos/abs-food-plate-mould.mp4"
+    },
+    {
+      "id": "solenoid-valve-locking-cap-mould",
+      "title": "Solenoid Valve Locking Cap Mould — 16 Cavity",
+      "description": "Sixteen-cavity mould for 1/4\" solenoid valve locking caps.",
+      "file": "videos/solenoid-valve-locking-cap-mould.mp4"
+    },
+    {
+      "id": "rider-toy-car-blow-mould",
+      "title": "Rider Toy Car Blow Mould",
+      "description": "Blow mould for a ride-on toy car body, with controlled wall thickness.",
+      "file": "videos/rider-toy-car-blow-mould.mp4"
+    },
+    {
+      "id": "cpr-dummy-face-mould",
+      "title": "CPR Dummy Face Mould — TPE",
+      "description": "TPE mould for a CPR training dummy face, moulded for a soft, lifelike finish.",
+      "file": "videos/cpr-dummy-face-mould.mp4"
+    },
+    {
+      "id": "cpr-dummy-chest-mould",
+      "title": "CPR Dummy Chest Mould — TPE",
+      "description": "TPE mould for the CPR training dummy chest piece.",
+      "file": "videos/cpr-dummy-chest-mould.mp4"
+    },
+    {
+      "id": "cpr-dummy-main-chest-mould",
+      "title": "CPR Dummy Main Chest Mould",
+      "description": "Mould for the main chest assembly of a CPR training dummy.",
+      "file": "videos/cpr-dummy-main-chest-mould.mp4"
+    }
+  ]
+}

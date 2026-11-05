@@ -1,0 +1,48 @@
+{
+  "title": "How a product is made",
+  "intro": "From the first drawing to the finished part - every stage happens under one roof.",
+  "steps": [
+    {
+      "id": "drawing",
+      "name": "Drawing & costing",
+      "description": "Customer sends a drawing, a sample or an idea. We study the part, suggest changes where needed and give the costing.",
+      "image": "process/01-drawing-costing.jpg"
+    },
+    {
+      "id": "design",
+      "name": "3D design & mould design",
+      "description": "The product is modelled in 3D, then the mould is designed around it - cavity layout, cooling, ejection and gating.",
+      "image": "process/02-mould-design.png"
+    },
+    {
+      "id": "prototype",
+      "name": "3D printed prototype",
+      "description": "An FDM printed sample is made so the customer can hold the part and approve the shape before the mould is cut.",
+      "image": "process/03-3d-print.jpg"
+    },
+    {
+      "id": "machining",
+      "name": "Mould manufacturing",
+      "description": "Core and cavity are machined on the VMC, detailed on the EDM, then fitted and polished by hand.",
+      "image": "process/04-mould-machining.jpg"
+    },
+    {
+      "id": "trial",
+      "name": "Mould trial",
+      "description": "The mould is loaded on the injection moulding machine and trialled. Shot weight, cycle and cooling are set until the part comes out right.",
+      "image": "process/05-mould-trial.jpg"
+    },
+    {
+      "id": "production",
+      "name": "Production",
+      "description": "Once approved, the mould runs in production. Parts are checked during the run, not only at the end.",
+      "image": "process/06-production.jpg"
+    },
+    {
+      "id": "final",
+      "name": "Final product",
+      "description": "Finished parts are inspected, counted, packed and dispatched.",
+      "image": "process/07-final-product.jpg"
+    }
+  ]
+}

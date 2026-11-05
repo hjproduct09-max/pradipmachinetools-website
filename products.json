@@ -1,0 +1,385 @@
+{
+  "categories": [
+    "Food Container & Cutlery",
+    "Automobile Mould",
+    "Pipe Fittings Mould",
+    "Household Products Mould",
+    "Home Appliance Mould",
+    "Toys Mould",
+    "Electronic Component Mould",
+    "Insert Mould"
+  ],
+  "products": [
+    {
+      "id": "food-container",
+      "name": "Plastic Food Container and Cutlery Mould",
+      "category": "Food Container & Cutlery",
+      "code": "FC-101",
+      "description": "Moulds for thin-wall food containers, spoons, forks and knives with food-safe surfaces, clean release and fast production.",
+      "specs": [
+        "Food-grade resin",
+        "Multi-cavity",
+        "Fast cycle"
+      ],
+      "image": "products/plastic-food-container-moulds.jpg",
+      "shape": "pail",
+      "color": "#f0ede4"
+    },
+    {
+      "id": "500ml-square-food-container",
+      "name": "500 ml Square Food Container Mould",
+      "category": "Food Container & Cutlery",
+      "code": "FC-112",
+      "description": "Hot-runner mould for producing 500 ml square plastic food containers with clean edges, consistent walls and reliable high-volume output.",
+      "specs": [],
+      "image": "products/500ml-square-food-container-hot-runner-mould.jpg",
+      "shape": "box",
+      "color": "#e9e7df"
+    },
+    {
+      "id": "30-piece-transport-egg-tray",
+      "name": "30-Piece Transport Egg Tray Mould",
+      "category": "Food Container & Cutlery",
+      "code": "FC-124",
+      "description": "Production mould for a 30-egg transport tray designed to keep eggs separated, supported and protected during handling and delivery.",
+      "specs": [
+        "30-egg capacity",
+        "Transport tray",
+        "Protective design"
+      ],
+      "image": "products/30-piece-transport-egg-tray-mould.jpg",
+      "shape": "crate",
+      "color": "#e9e7df"
+    },
+    {
+      "id": "automobile",
+      "name": "Honda Activa Front Inner Cover Mould",
+      "category": "Automobile Mould",
+      "code": "AU-201",
+      "description": "Production mould for the Honda Activa front inner cover, engineered for accurate fit, clean detailing and consistent moulding.",
+      "specs": [
+        "Automobile part",
+        "Precision fit",
+        "Production mould"
+      ],
+      "image": "products/honda-activa-front-inner-cover-mould.jpg",
+      "shape": "bezel",
+      "color": "#d8d5cc"
+    },
+    {
+      "id": "tvs-petrol-tank",
+      "name": "TVS Scooty Petrol Tank Blow Mould",
+      "category": "Automobile Mould",
+      "code": "AU-212",
+      "description": "Blow mould developed for manufacturing a TVS Scooty petrol tank with controlled wall thickness, accurate mounting features and reliable production.",
+      "specs": [
+        "Blow mould",
+        "Petrol tank",
+        "Automobile part"
+      ],
+      "image": "products/tvs-scooty-petrol-tank-blow-mould.jpg",
+      "shape": "bezel",
+      "color": "#d8d5cc"
+    },
+    {
+      "id": "electronic-component",
+      "name": "Electronic Parts Component Mould",
+      "category": "Electronic Component Mould",
+      "code": "EL-301",
+      "description": "Detailed mould for electronic housings and components with integrated bosses, clips and fine features.",
+      "specs": [
+        "ABS / PC",
+        "Fine features",
+        "Stable fit"
+      ],
+      "image": "products/electrical-plastic-component-mould.jpg",
+      "shape": "box",
+      "color": "#ccd8d7"
+    },
+    {
+      "id": "insert-mould",
+      "name": "Insert Mould",
+      "category": "Insert Mould",
+      "code": "IN-501",
+      "description": "Insert moulding solutions that securely combine metal inserts with engineered plastic in a single process.",
+      "specs": [
+        "Metal inserts",
+        "Strong bonding",
+        "Close tolerance"
+      ],
+      "image": "products/plastic-injection-molding-parts.jpg",
+      "shape": "connector",
+      "color": "#cbbf9f"
+    },
+    {
+      "id": "home-appliance-housing",
+      "name": "Home Appliance and Home Products Moulds",
+      "category": "Home Appliance Mould",
+      "code": "HA-601",
+      "description": "Cosmetic housing mould for everyday appliances with clean surfaces, secure assembly and durable construction.",
+      "specs": [
+        "Class A surface",
+        "ABS / PP",
+        "Assembly ready"
+      ],
+      "image": "products/ro-accessories-mould.jpg",
+      "shape": "crate",
+      "color": "#e4e1d8"
+    },
+    {
+      "id": "tower-fan-back-mould",
+      "name": "Tower Fan Back Mould",
+      "category": "Home Appliance Mould",
+      "code": "HA-602",
+      "description": "Single-cavity mould for a tower fan back cover, with a deep draw, clean outer surface and accurate screw bosses for assembly.",
+      "specs": [
+        "Tower fan",
+        "Deep draw",
+        "Assembly ready"
+      ],
+      "image": "products/tower-fan-back-mould.jpg",
+      "shape": "crate",
+      "color": "#e4e1d8"
+    },
+    {
+      "id": "110mm-y-pipe-fitting",
+      "name": "110 mm Y Fitting Mould",
+      "category": "Pipe Fittings Mould",
+      "code": "PF-712",
+      "description": "Precision mould for manufacturing 110 mm Y pipe fittings with accurate branch geometry, smooth flow paths and consistent joint dimensions.",
+      "specs": [
+        "110 mm size",
+        "Y fitting",
+        "Pipe fitting"
+      ],
+      "image": "products/110mm-y-pipe-fitting-mould.jpg",
+      "shape": "pipe",
+      "color": "#d6d4ca"
+    },
+    {
+      "id": "2-cavity-water-tap",
+      "name": "2 Cavity Water Tap Mould — Semi Hydraulic",
+      "category": "Pipe Fittings Mould",
+      "code": "PF-723",
+      "description": "Two-cavity mould for plastic water taps, with semi-hydraulic core operation for the curved internal waterway and clean, accurate threaded joints.",
+      "specs": [
+        "2 cavity",
+        "Semi hydraulic",
+        "Water tap"
+      ],
+      "image": "products/water-tap-mould.png",
+      "shape": "pipe",
+      "color": "#d6d4ca"
+    },
+    {
+      "id": "toys-mould",
+      "name": "Plastic Toys Mould",
+      "category": "Toys Mould",
+      "code": "TY-801",
+      "description": "Custom moulds for durable plastic toys and components with smooth edges, bright finishes and repeatable assembly.",
+      "specs": [
+        "Child-safe design",
+        "Multi-colour ready",
+        "Smooth finish"
+      ],
+      "image": "products/kids-plastic-toys-mould.png",
+      "shape": "toy",
+      "color": "#ff5a1f"
+    },
+    {
+      "id": "plastic-auto-parts-mould",
+      "name": "Plastic Auto Parts Mould",
+      "category": "Automobile Mould",
+      "code": "AU-222",
+      "description": "Two-plate mould for a contoured automotive component, with cooling laid out to hold shape and cycle time under production load.",
+      "specs": [
+        "Two plate",
+        "Contoured part",
+        "Cooled"
+      ],
+      "image": "products/plastic-auto-parts-mould.jpg",
+      "shape": "bezel",
+      "color": "#d8d5cc"
+    },
+    {
+      "id": "auto-parts-injection-mould",
+      "name": "Auto Parts Injection Mould",
+      "category": "Automobile Mould",
+      "code": "AU-224",
+      "description": "Multi-cavity injection mould for small automotive components, built for steady output with minimal trimming.",
+      "specs": [
+        "Multi-cavity",
+        "Small parts",
+        "Low trim"
+      ],
+      "image": "products/auto-parts-plastic-injection-mould.jpg",
+      "shape": "box",
+      "color": "#d8d5cc"
+    },
+    {
+      "id": "pp-pipe-fitting-mould",
+      "name": "PP Pipe Fitting Mould",
+      "category": "Pipe Fittings Mould",
+      "code": "PF-730",
+      "description": "Mould for PP pipe fittings with collapsing side cores for the branch arms and clean sealing faces.",
+      "specs": [
+        "PP material",
+        "Side cores",
+        "Leak-resistant"
+      ],
+      "image": "products/pp-pipe-fitting-mould.jpg",
+      "shape": "pipe",
+      "color": "#d6d4ca"
+    },
+    {
+      "id": "swr-pipe-fitting-twin",
+      "name": "SWR 75 mm Y Fitting Mould",
+      "category": "Pipe Fittings Mould",
+      "code": "PF-732",
+      "description": "Single-cavity SWR mould for a 75 mm Y pipe fitting, with accurate branch angle, correct socket depth and a smooth internal flow path.",
+      "specs": [
+        "75 mm size",
+        "1 cavity",
+        "SWR fitting"
+      ],
+      "image": "products/swr-pipe-fitting-moulds.png",
+      "shape": "pipe",
+      "color": "#d6d4ca"
+    },
+    {
+      "id": "plastic-chair-mould",
+      "name": "Plastic Chair Mould",
+      "category": "Household Products Mould",
+      "code": "HP-801",
+      "description": "Single-cavity chair mould with a polished cavity for a smooth seat and back surface straight out of the tool.",
+      "specs": [
+        "Single cavity",
+        "Polished cavity",
+        "Large part"
+      ],
+      "image": "products/chair-mould.jpg",
+      "shape": "crate",
+      "color": "#e4e1d8"
+    },
+    {
+      "id": "plastic-crate-mould",
+      "name": "Plastic Crate Mould",
+      "category": "Household Products Mould",
+      "code": "HP-802",
+      "description": "Crate mould with slide action on all four faces for the mesh walls, built for stiff, stackable crates.",
+      "specs": [
+        "4-side slides",
+        "Mesh wall",
+        "Stackable"
+      ],
+      "image": "products/plastic-crate-mould.png",
+      "shape": "crate",
+      "color": "#a73f20"
+    },
+    {
+      "id": "milk-crate-mould",
+      "name": "Milk Crate Mould",
+      "category": "Household Products Mould",
+      "code": "HP-803",
+      "description": "Heavy-duty mould for milk crates, built to take the load of continuous production and hold wall thickness.",
+      "specs": [
+        "Heavy duty",
+        "Milk crate",
+        "Load bearing"
+      ],
+      "image": "products/mold-for-plastic-milk-crates.jpg",
+      "shape": "crate",
+      "color": "#a73f20"
+    },
+    {
+      "id": "flower-pot-mould",
+      "name": "Plastic Flower Pot Mould",
+      "category": "Household Products Mould",
+      "code": "HP-805",
+      "description": "Flower pot mould with a tapered cavity for clean ejection and an even wall from rim to base.",
+      "specs": [
+        "Tapered cavity",
+        "Clean ejection",
+        "Even wall"
+      ],
+      "image": "products/plastic-flower-pot-injection-mould.jpg",
+      "shape": "pail",
+      "color": "#e4e1d8"
+    },
+    {
+      "id": "hair-comb-mould",
+      "name": "Plastic Hair Comb Mould",
+      "category": "Household Products Mould",
+      "code": "HP-806",
+      "description": "Multi-cavity comb mould with fine tooth detail and a runner layout balanced for complete filling.",
+      "specs": [
+        "Multi-cavity",
+        "Fine detail",
+        "Balanced runner"
+      ],
+      "image": "products/plastic-hair-comb-mould.jpg",
+      "shape": "connector",
+      "color": "#e4e1d8"
+    },
+    {
+      "id": "air-cooler-mould",
+      "name": "Air Cooler Parts Mould",
+      "category": "Home Appliance Mould",
+      "code": "HA-610",
+      "description": "Mould set for air cooler components, machined for straight louvre sections and accurate assembly points.",
+      "specs": [
+        "Air cooler",
+        "Multi-part",
+        "Assembly ready"
+      ],
+      "image": "products/air-cooler-mould.jpg",
+      "shape": "box",
+      "color": "#e4e1d8"
+    },
+    {
+      "id": "toys-mould-die",
+      "name": "Plastic Toys Mould Die",
+      "category": "Toys Mould",
+      "code": "TY-810",
+      "description": "Two-cavity die for moulded toy shells, with a polished cavity for a bright finish and no secondary work.",
+      "specs": [
+        "2 cavity",
+        "Polished",
+        "Bright finish"
+      ],
+      "image": "products/plastic-blow-mould-die.jpg",
+      "shape": "toy",
+      "color": "#ff5a1f"
+    },
+    {
+      "id": "plastic-cap-mould",
+      "name": "Plastic Cap Mould — Multi Cavity",
+      "category": "Food Container & Cutlery",
+      "code": "FC-131",
+      "description": "Multi-cavity cap mould with a balanced runner so every cavity fills alike and caps seal consistently.",
+      "specs": [
+        "Multi-cavity",
+        "Balanced runner",
+        "Consistent seal"
+      ],
+      "image": "products/plastic-cap-mould.jpg",
+      "shape": "connector",
+      "color": "#e9e7df"
+    },
+    {
+      "id": "unscrewing-cap-mould",
+      "name": "Unscrewing Cap Mould",
+      "category": "Food Container & Cutlery",
+      "code": "FC-132",
+      "description": "Cap mould with a geared unscrewing mechanism that releases the thread without damaging it.",
+      "specs": [
+        "Unscrewing",
+        "Threaded cap",
+        "Geared drive"
+      ],
+      "image": "products/unscrewing-cap-mould.jpg",
+      "shape": "connector",
+      "color": "#e9e7df"
+    }
+  ]
+}
