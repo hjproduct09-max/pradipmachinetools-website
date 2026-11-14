@@ -1,6 +1,6 @@
 {
   "categories": [
-    "Food Container & Cutlery",
+    "Thinwall Container",
     "Automobile Mould",
     "Pipe Fittings Mould",
     "Household Products Mould",
@@ -13,7 +13,7 @@
     {
       "id": "food-container",
       "name": "Plastic Food Container and Cutlery Mould",
-      "category": "Food Container & Cutlery",
+      "category": "Thinwall Container",
       "code": "FC-101",
       "description": "Moulds for thin-wall food containers, spoons, forks and knives with food-safe surfaces, clean release and fast production.",
       "specs": [
@@ -28,7 +28,7 @@
     {
       "id": "500ml-square-food-container",
       "name": "500 ml Square Food Container Mould",
-      "category": "Food Container & Cutlery",
+      "category": "Thinwall Container",
       "code": "FC-112",
       "description": "Hot-runner mould for producing 500 ml square plastic food containers with clean edges, consistent walls and reliable high-volume output.",
       "specs": [],
@@ -39,7 +39,7 @@
     {
       "id": "30-piece-transport-egg-tray",
       "name": "30-Piece Transport Egg Tray Mould",
-      "category": "Food Container & Cutlery",
+      "category": "Thinwall Container",
       "code": "FC-124",
       "description": "Production mould for a 30-egg transport tray designed to keep eggs separated, supported and protected during handling and delivery.",
       "specs": [
@@ -354,7 +354,7 @@
     {
       "id": "plastic-cap-mould",
       "name": "Plastic Cap Mould — Multi Cavity",
-      "category": "Food Container & Cutlery",
+      "category": "Thinwall Container",
       "code": "FC-131",
       "description": "Multi-cavity cap mould with a balanced runner so every cavity fills alike and caps seal consistently.",
       "specs": [
@@ -369,7 +369,7 @@
     {
       "id": "unscrewing-cap-mould",
       "name": "Unscrewing Cap Mould",
-      "category": "Food Container & Cutlery",
+      "category": "Thinwall Container",
       "code": "FC-132",
       "description": "Cap mould with a geared unscrewing mechanism that releases the thread without damaging it.",
       "specs": [
